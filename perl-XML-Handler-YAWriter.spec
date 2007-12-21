@@ -14,6 +14,7 @@ Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%
 BuildRequires:	perl-devel
 BuildRequires:	perl-libxml-perl >= 0.06
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Url: http://www.cpan.org/
 Obsoletes:	%{pdir}-%{pnam}
 Provides:	%{pdir}-%{pnam}
