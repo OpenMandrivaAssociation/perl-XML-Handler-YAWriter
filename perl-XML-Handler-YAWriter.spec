@@ -2,7 +2,7 @@
 %define	pnam	Handler-YAWriter
 %define name    perl-%{pdir}-%{pnam}
 %define version 0.23
-%define release %mkrel 11
+%define release %mkrel 12
 
 Summary:	XML::Handler::YAWriter perl module
 Name:		%{name}
