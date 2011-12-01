@@ -31,14 +31,14 @@ some kind of pretty printing.
 %make
 
 %install
-%{__rm} -rf $RPM_BUILD_ROOT
+%{__rm} -rf %{buildroot}
 
-%makeinstall DESTDIR=$RPM_BUILD_ROOT
+%makeinstall DESTDIR=%{buildroot}
 
-%{__rm} -f $RPM_BUILD_ROOT%{perl_archlib}/perllocal.pod
+%{__rm} -f %{buildroot}%{perl_archlib}/perllocal.pod
 
 %clean
-%{__rm} -rf $RPM_BUILD_ROOT
+%{__rm} -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
