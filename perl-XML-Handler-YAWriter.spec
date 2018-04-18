@@ -4,11 +4,11 @@
 Summary:	XML::Handler::YAWriter perl module
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	15
+Release:	16
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/XML/%{modname}-%{modver}.tar.bz2
+Source0:	https://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl-libxml-perl >= 0.06
