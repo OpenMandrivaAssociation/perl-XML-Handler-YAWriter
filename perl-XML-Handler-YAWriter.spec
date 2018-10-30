@@ -4,7 +4,7 @@
 Summary:	XML::Handler::YAWriter perl module
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	17
+Release:	18
 License:	GPLv2
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/XML::Handler::YAWriter
