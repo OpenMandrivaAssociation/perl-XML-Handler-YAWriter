@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	19
 License:	GPLv2
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/XML::Handler::YAWriter
+Url:		https://metacpan.org/pod/XML::Handler::YAWriter
 Source0:	https://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl-devel
