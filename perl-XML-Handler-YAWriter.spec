@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/XML::Handler::YAWriter
 Source0:	https://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.bz2
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl-libxml-perl >= 0.06
 Provides:	XML-Handler-YAWriter = %{version}-%{release}
