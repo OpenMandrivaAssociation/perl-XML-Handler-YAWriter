@@ -3,12 +3,12 @@
 
 Summary:	XML::Handler::YAWriter perl module
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	19
+Version:	%{modver}
+Release:	20
 License:	GPLv2
 Group:		Development/Perl
-Url:		https://metacpan.org/pod/XML::Handler::YAWriter
-Source0:	https://www.cpan.org/modules/by-module/XML/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/XML-Handler-YAWriter
+Source0:	https://cpan.metacpan.org/authors/id/K/KR/KRAEHE/XML-Handler-YAWriter-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
